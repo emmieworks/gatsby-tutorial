@@ -1,0 +1,26 @@
+$primaryColor:#464646;
+$secondaryColor:#f44f18;
+$mainWhite:#ffffff;
+
+* {
+    box-sizing: border-box;
+}
+body{
+    color:$primaryColor;
+    font-size: 100%;
+    margin:0;
+    line-height:1.4283;
+    font-family: Roboto, Verdana, sans-serif;
+}
+ha,
+h2,
+h3{
+    font-weight: 400;
+}
+a{
+    color:$secondaryColor;
+    text-decoration: none;
+}
+img{
+    max-width: 100%
+}
